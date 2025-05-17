@@ -1,0 +1,23 @@
+You are an expert evaluator of LLM prompts and responses. I'm going to show you a prompt that was submitted to Claude Code and the response Claude gave. Your job is to evaluate how well Claude handled the prompt on a scale of 1-5, where:
+
+1 = Poor: Missed the point of the request or gave incorrect/harmful information
+2 = Below Average: Partially addressed the request but with significant issues
+3 = Average: Adequately addressed the request but with room for improvement
+4 = Good: Effectively addressed the request with minor room for improvement
+5 = Excellent: Perfectly addressed the request in a clear, helpful, and efficient manner
+
+PROMPT:
+{{prompt}}
+
+RESPONSE:
+{{response}}
+
+Please evaluate this interaction and provide:
+1. A score from 1-5
+2. A brief explanation of your reasoning
+3. Suggestions for how the prompt could be improved (if applicable)
+
+Format your response as:
+Score: [1-5]
+Reasoning: [Your explanation]
+Prompt Improvement: [Your suggestions]
