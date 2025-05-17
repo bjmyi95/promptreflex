@@ -50,7 +50,7 @@ def get_prompts_dir() -> str:
     
     if not prompts_dir:
         # Default to a directory in the user's home
-        prompts_dir = os.path.join(os.path.expanduser('~'), 'promptreflex', 'prompts')
+        prompts_dir = os.path.join(os.path.expanduser('~'), 'toy', 'promptreflex', 'prompts')
     
     # Create directory if it doesn't exist
     os.makedirs(prompts_dir, exist_ok=True)
